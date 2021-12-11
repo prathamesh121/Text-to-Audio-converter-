@@ -1,0 +1,6 @@
+import pyttsx3
+
+speech = pyttsx3.init()
+p = input("what you want to enter ")
+speech.say(p)
+speech.runAndWait()
